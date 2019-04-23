@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/images" />
+
+            <Button
+                android:id="@+id/ke_layout_hidayatullah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rsi hidayatullah"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="20sp"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/ke_layout_pku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pku muhammadiyah"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20sp"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/ke_layout_jogja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rsud jogja"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20sp"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/ke_layout_siloam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rs siloam"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20sp"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/ke_layout_bathesda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rsu bathesda"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20sp"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/ke_layout_sardjito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rs dr. sardjito"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20sp"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/ke_layout_utama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="100sp"
+                android:background="@color/maron"
+                android:text="back"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

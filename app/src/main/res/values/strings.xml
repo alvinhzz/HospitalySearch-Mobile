@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ngobati</string>
+    <string name="nama_rumah_sakit">Nama Rumah Sakit</string>
+    <string name="call">Call</string>
+    <string name="send_message">Send Message</string>
+    <string name="open_maps">open maps</string>
+    <string name="mendaftar">Mendaftar</string>
+    <string name="masukan_nik">NIK</string>
+    <string name="masukan_nama">Nama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+</resources>

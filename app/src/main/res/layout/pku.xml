@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pku_muh"
+                android:layout_margin="20sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama RS   :   PKU Muhammadiyah"
+                android:textSize="18sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lokasi        :   Jalan KH. Ahmad Dahlan
+                        No.20, Gondomanan,
+                        Yogyakarta, Ngupasan,
+                        Gondomanan,Daerah Istimewa
+                        Yogyakarta, 55122"
+                android:textSize="18sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jam Operasional :
+Senin s/d Minggu 24 jam"
+                android:textSize="18sp"
+                android:layout_margin="10dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+            <Button
+                android:id="@+id/telepon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:background="@color/maron"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/pesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_message"
+                android:background="@color/maron"/>
+
+            <Button
+                android:id="@+id/maps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_maps"
+                android:background="@color/maron"
+                android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp">
+
+            <Button
+                android:id="@+id/daftarpasien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mendaftar"
+                android:background="@color/maron"/>
+            <Button
+                android:id="@+id/lihatdaftar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lihat daftar pasien"
+                android:background="@color/maron"
+                android:layout_marginLeft="3dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pku_ke_rsud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="100sp"
+                android:background="@color/maron"
+                android:text="back"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

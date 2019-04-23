@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertData">
+
+    <EditText
+        android:id="@+id/nikPasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_nik"/>
+
+    <EditText
+        android:id="@+id/namaPasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukan_nama"/>
+
+    <EditText
+        android:id="@+id/birthPasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tanggal_lahir"/>
+
+    <EditText
+        android:id="@+id/kelaminPasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jenis_kelamin"/>
+
+    <EditText
+        android:id="@+id/alamatPasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"/>
+
+    <Button
+        android:id="@+id/insertPasien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mendaftar"
+        android:layout_gravity="center"
+        android:background="@color/maron"/>
+
+</LinearLayout>
